@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title> 
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+    
+    div{
+  width: min-content;
+  border:2px solid;
+      margin:20px;
+      padding:20px;
+      
+}
+
+div p{
+  font-size: 6rem;
+}
+  </style>
+</head>
+<body>
+  
+  
+  <div>
+    <p>Lorem ipsum dolor.</p>
+  </div>
+  
+
+</body>
+</html>

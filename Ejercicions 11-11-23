@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title> 
+  
+  <style>
+    
+    *{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+    
+    div{
+  width: min-content;
+  border:2px solid;
+      margin:20px;
+      padding:20px;
+      
+}
+div p{
+  font-size: 6rem;
+}
+    
+    
+    .imagen{
+  width: min-content;
+}
+.imagen img{
+  width: 300px;
+}
+    
+    
+    
+    /*estilos del ejercicio*/
+    
+    .caja{
+  width: 500px;
+  border:1px solid black;
+  padding:10px;
+}
+div h1{
+  color:blue;
+}
+div h4{
+  color:grey;
+}
+div p {
+  color:#555353;
+  line-height: 25px;
+}
+div ul li{
+  line-height: 25px;
+}
+
+div ul li a{
+  color:orange;
+}
+div h4, p,h2,ul{
+  font-family: arial;
+}
+    
+    
+  </style>
+  
+  
+</head>
+<body>
+  
+  
+  <div>
+    <p>Lorem ipsum dolor.</p>
+  </div>
+  
+  
+  <div class="imagen">
+    <img src="https://cdn.pixabay.com/photo/2017/09/26/16/32/maple-leaves-2789234_1280.jpg" alt="">
+  </div>
+  
+  <pre>
+    .imagen{
+  width: min-content;
+}
+.imagen img{
+  width: 300px;
+}
+  
+  </pre>
+  
+  
+  <!-- ejercicio resuelto-->
+  
+  
+  <div class="caja">
+    <h1>Jane Doe</h1>
+    <hr>
+    <h4>Webdeveloper</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit magni eos, sunt debitis temporibus ad reprehenderit autem optio ipsa doloribus iste, doloremque officia molestias reiciendis explicabo, provident quos quidem esse unde delectus at. Ullam assumenda, enim alias cum beatae molestiae, expedita praesentium non omnis nesciunt quam. Possimus, nobis molestias deserunt at pariatur adipisci quaerat tenetur excepturi nihil laboriosam officiis, in!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quasi sit, iste. Sint corporis ut omnis similique necessitatibus perferendis quae quis neque fuga numquam voluptate mollitia, facilis eligendi natus optio, veniam harum magnam beatae? Sed repudiandae quidem quibusdam alias voluptatem.</p>
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: <a href="#">jane@example.com</a></li>
+      <li>Web: <a href="#">http://example.com</a></li>
+      <li>Tel: 12345678</li>
+    </ul>
+  </div>
