@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2023 by anonymous (http://jsbin.com/xicalaquce/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Flexbox mi primera chamba</title>
+<style id="jsbin-css">
+    
+     *{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  min-height: 100%;
+  background-color: steelblue;
+   padding: 10px;
+}
+
+ header{
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+ nav{
+  padding: 0 30px;
+}
+
+ nav ul{
+  display: Flex;
+    justify-content: flex-end;
+   gap:20px;
+}
+
+     nav ul li{
+  padding:20px;
+  background-color: pink;
+  list-style-type: none;
+}
+     nav ul li:hover{
+  color:green;
+}
+     main{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eee;
+    display: flex;
+}
+
+     main section{
+  width: 75%;
+  min-height: 100vh;
+  background-color: red;
+}
+
+     main aside{
+  width: 25%;
+  min-height: 100vh;
+  background-color: yellowgreen;
+}
+     footer{
+  width: 100%;
+  height: 50px;
+  background-color: gold;
+       text-align: center;
+}
+</style>
+</head>
+
+<body>
+  
+ <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Blog</li>
+        <li>Store</li>
+        <li>Nosotros</li>
+        
+      </ul>
+    </nav>
+ </header>
+
+  <main>
+    <section></section>
+    <aside></aside>
+  </main>
+  
+   <footer>&copy Esculea de código</footer>
+  
+</body>
+</html>
