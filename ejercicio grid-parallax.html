@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Parallax</title>
+  
+	<style>
+ 
+    body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns:repeat(12,1fr);
+  grid-template-rows:auto;
+}
+    
+     header{
+  background-color: #59FFA0;
+  grid-column:1/-1;
+  text-align: right;      
+       
+} 
+    header nav{
+  width: 25%;
+  float: right;
+  padding: 1rem;
+ //background-color: #fff;
+}
+
+    header nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+    header nav ul li{
+  list-style-type: none;
+  font-family: sans-serif;
+  font-size: .9em;
+}
+    header nav ul li:hover{
+  text-decoration: underline wavy #FFED65;
+  color:#E84855;
+  cursor:pointer;
+}
+
+    main{
+  grid-column:1/-1;
+  background-color: #3A2449;
+}
+
+    main section{
+  width: 100%;
+  height: 500px;
+}
+
+    main .caja1{
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png");
+  background-attachment: fixed;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    main .caja3{
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/22/19/07/background-1409025_1280.png");
+  background-attachment: fixed;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .caja2,.caja4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    main .caja2 h2,.caja4 h2{
+  font-family: helvetica;
+  font-size: 5em;
+  font-weight: normal;
+  background-color: #C0DFA1;
+  padding: 10px;
+  border-radius:5px;
+  color:#E84855;
+}
+    
+    footer{
+  text-align: center;
+  padding: 25px;
+  grid-column:1/-1;
+  background-color: gold;
+  font-family: arial;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+  </style>
+  
+ <body>
+
+  <header>
+    <nav>
+      <ul>
+        <li>HOME</li>
+        <li>BLOG</li>
+        <li>ABOUT</li>
+        <li>STORE</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="caja1"></section>
+    <section class="caja2"><h2>CONTENIDO</h2></section>
+    <section class="caja3"></section>
+    <section class="caja4"><h2>CONTENIDO</h2></section>
+  </main>
+  <footer>&copy 2023
+   https://gridbyexample.com/</footer>
+  
+</body>
+</html>
