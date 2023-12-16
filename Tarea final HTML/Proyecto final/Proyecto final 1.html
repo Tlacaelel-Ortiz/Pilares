@@ -22,39 +22,34 @@ Released under the MIT license: http://jsbin.mit-license.org
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 html, body{
   width: 100%;
   min-height: 100%;
   background-color: #ffffff;
-
 }
 
- header{
+header{
   width: 100%;
   background-color: #ffffff;
 }
-
-header div{
+  header div{
   border-bottom: 1px solid Gray;
 }
-
- nav ul{
+nav ul{
   display: Flex;
   justify-content: flex-start;
   gap:20px;
   background-color: #ffffff;
 }
-     nav ul li{
+  nav ul li{
   padding:20px;
   background-color: #ffffff;
   color: green;
   list-style-type: none;    
 }
-     nav ul li:hover{
+  nav ul li:hover{
   color: #691c32;
 }
-
 
 .inicia{
   align-self:flex-end;
@@ -74,7 +69,6 @@ header div{
   text-decoration: none;
   color: white;
 }
-
 .regístrate{
   align-self:flex-end;
   border: 1px solid black;
@@ -101,6 +95,7 @@ header div{
   background-color: #ffffff;
   display: flex;
   flex-wrap:wrap;
+  
 }
 
      main section{
@@ -118,7 +113,6 @@ header div{
 
 
 .Experiencia{
-  text-align: center;
   background-color: #016241;
 }
 .Experiencia a{
@@ -142,7 +136,6 @@ header div{
   border: 1px solid white;
   color: white;
   padding: 5px 10px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 40px 2px;
@@ -169,9 +162,6 @@ footer ul li{
   list-style-type: none;    
 }
 
-
-
-
 </style>
 </head>
 
@@ -179,7 +169,7 @@ footer ul li{
   
  <header>
     <nav>
-      <ul>
+      <ul class="pestañas">
         <img src="https://www.pngwing.com/en/free-png-kjbes"
          alt="Imagen de un icono maya">
         <li>Arte</li>
@@ -188,7 +178,6 @@ footer ul li{
         <li class="inicia"> <a href="#">Inicia sesión</a></li>
         <li class="regístrate"> <a href="#">Regístrate</a></li>
       </ul>
-        
     </nav>
  </header>
 

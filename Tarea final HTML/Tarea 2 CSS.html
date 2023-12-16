@@ -22,7 +22,6 @@ Released under the MIT license: http://jsbin.mit-license.org
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 html, body{
   width: 100%;
   min-height: 100%;
@@ -30,28 +29,26 @@ html, body{
    padding: 10px;
 }
 
- header{
+header{
   width: 100%;
   background-color: #ffffff;
 }
-
-header div {
-  border-bottom: 2px solid Gray;
+  header div {
+    gap: 20px;
+    border-bottom: 3px solid gray;
 }
 
- nav ul{
+nav ul{
   display: Flex;
   justify-content: flex-end;
   gap:20px;
   background-color: #ffffff;
 }
-
-     nav ul li{
+    nav ul li{
   padding:20px;
   background-color: #ffffff;
   color: green;
-  list-style-type: none;
-       
+  list-style-type: none; 
 }
      nav ul li:hover{
   color: #691c32;
@@ -65,34 +62,35 @@ header div {
   flex-wrap: wrap;
   gap: 10px
 }
-
      main section{
   width: 100%;
   min-height: 5vh;
-  text-align: center;
-  margin: center;
-       
+  text-align: right;
+  margin: center;      
+}
+.flecha {
+  float: left;
 }
 
 .ImagenF{
   display: flex;
   flex-wrap: wrap;
   justify-content: Left;
-  align-items: Center;
-  padding: 30px;
+  align-items: left;
+  padding: 200px;
   color: white;
   font-size: 1.5em;
  background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-  
 }
-
+.Texto{
+  text-align: center;
+}
 .Texto h2{
   color: #a49f81;
 }
-
 
 </style>
 </head>
@@ -101,10 +99,10 @@ header div {
   
   <header>
      <nav>
-    <figure>
+    <div>
      <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg"
           alt="Imagen del logo institucional">
-    </figure>
+    </div>
        <ul>
          <li>Residentes</li>
          <li>Negocios</li>
@@ -117,7 +115,7 @@ header div {
    <main>
      <section class="ImagenF">
        <h1>
-       <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg"
+       <img class="flecha" src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg"
           alt="Imagen del vector blanco"><strong>APRENDE A PROGRAMAR<br>
          </strong> EN LAS
          <strong>ESCUELAS <br>DE CÓDIGO</strong><br>
